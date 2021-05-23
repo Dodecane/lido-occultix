@@ -7,7 +7,8 @@ It provides highly flexible instant loans on stETH that repay themselves over ti
 - Yield earned on stETH collateral automatically repays the loan over time.
 - Transmute ocstETH back into stETH one-to-one by staking it in the Transmuter contract or trading it on incentivized Curve eth/stETH/ocstETH pools
 
-## Contract interactions
+## Contract interactions overview
+![occultix flowchart](https://i.imgur.com/B9rF6iA.png)
 
 ## Run demo
 
@@ -29,7 +30,7 @@ npm run network
 7. Open a new terminal (keep previous terminal open)
 8. Run demo:
 ```
-npm run compile
+npm run demo
 ```
 
 ## Deployment
@@ -42,7 +43,7 @@ const rewards_address = "0x....";
 const stETH_address = "0x....";
 const stakingRewardsToken_address = "0x....";
 ```
-8. Deploy contracts:
+3. Deploy contracts:
 ```
 npm run deploy
 ```
